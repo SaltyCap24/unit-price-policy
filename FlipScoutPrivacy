@@ -1,0 +1,123 @@
+# Privacy Policy
+
+**App:** FlipScout — Resale Deal Scanner  
+**Developer:** SNO Development  
+**Bundle ID:** com.snodevelopment.flipscout  
+**Platforms:** iOS, Android  
+**Last updated:** April 4, 2026
+
+---
+
+SNO Development ("we," "our," or "us") values your privacy. This Privacy Policy explains how we collect, use, and protect information when you use FlipScout.
+
+## 1. Overview
+
+FlipScout is a resale deal scanning app. It searches public marketplace listings (Facebook Marketplace, OfferUp, and others) using keywords and location you provide, then uses AI to evaluate each listing's resale profit potential.
+
+We do not require you to create an account. You are identified by an anonymous ID generated automatically on first launch.
+
+## 2. Information We Collect
+
+### A. Information You Provide
+- **Search keywords** — the item names you enter when starting a scan
+- **Location** — a city name or ZIP code used to filter nearby listings
+- **Scan preferences** — maximum price, minimum profit margin, and maximum distance filters
+- **Email address** (optional) — only if you voluntarily submit interest in a paid upgrade through the in-app prompt
+
+### B. Automatically Generated
+- **Anonymous user ID** — a randomly generated UUID created on first launch and stored on your device. This ID is used to associate your scans and saved listings across sessions. It is not linked to your name, email, or any account.
+- **Scan usage count** — the number of scans you have performed, tracked per day per anonymous ID for rate-limiting purposes.
+
+### C. Listing Engagement
+- **Saved and dismissed listings** — when you save or dismiss a marketplace listing, that action is stored and associated with your anonymous ID so your preferences persist.
+
+### D. What We Do Not Collect
+- Name, phone number, or government ID
+- Precise GPS location (only a city/ZIP you type)
+- Contacts, calendar, photos, camera, or microphone data
+- Payment card or financial information
+- Device identifiers beyond what the Supabase client SDK may transmit for connectivity purposes (e.g., OS version, app version)
+- No analytics SDKs, crash reporters, or advertising networks are embedded in the app
+
+## 3. How We Use Information
+
+We use the information described above to:
+- Run marketplace scans based on your keywords and location
+- Score and rank listings using AI (OpenAI GPT-4o) for resale profit potential
+- Display and persist your saved/dismissed listings
+- Enforce daily scan limits
+- Contact you about upgrade options if you have submitted your email for that purpose
+
+## 4. Third-Party Services
+
+FlipScout relies on the following third-party services. All calls to these services are made from our server-side backend (Supabase Edge Functions) — your device does not communicate with them directly.
+
+| Service | Purpose | Privacy Policy |
+|---------|---------|---------------|
+| **Supabase** | Database and serverless backend | https://supabase.com/privacy |
+| **OpenAI** | AI-based listing scoring and analysis | https://openai.com/privacy |
+| **Apify** | Automated scraping of Facebook Marketplace | https://apify.com/privacy-policy |
+| **eBay Browse API** | Market value lookup for resale price estimation | https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy |
+
+FlipScout does not use Google Firebase, AdMob, RevenueCat, or any advertising or analytics SDK.
+
+## 5. Marketplace Data
+
+The app fetches and displays publicly visible listing data from third-party marketplaces (Facebook Marketplace, OfferUp, LSN.com, and others). This data is scraped from public pages and is not provided by or endorsed by those platforms. We do not collect data about the sellers of those listings beyond what is publicly displayed.
+
+## 6. Data Sharing
+
+We do not sell personal data. We do not share your data with advertisers.
+
+We may share data only in the following limited circumstances:
+- With service providers listed in Section 4, solely to operate the app's features
+- If required by law, court order, or to protect the rights and safety of users or the public
+- In connection with a merger, acquisition, or transfer of assets (you would be notified)
+
+## 7. Data Retention
+
+- **Scan and listing data** are retained for as long as your anonymous ID exists in our database. You can request deletion at any time (see Section 10).
+- **Scan cache** data expires automatically after 12 hours.
+- **Optional email submissions** (upgrade interest) are retained until you request removal.
+
+## 8. Data Security
+
+We use Supabase's managed infrastructure for data storage. Data is transmitted over HTTPS. We apply reasonable technical safeguards, but no system is completely secure.
+
+Note: Row-level security (RLS) is not currently enforced at the database level. Access to your data is limited by your anonymous ID embedded in each request. We intend to enforce RLS in a future update.
+
+## 9. Children's Privacy
+
+FlipScout is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13. If you believe a child has provided information to us, please contact us so we can delete it.
+
+## 10. Your Rights and Data Deletion
+
+You may request deletion of all data associated with your anonymous ID by contacting us. Because no account registration is required, we will ask you to provide your anonymous ID (visible in the app settings, if available, or we can assist you in finding it).
+
+Depending on your location, you may also have rights to access, correct, or port your data. To exercise any of these rights, contact us at the address below.
+
+**California residents (CCPA/CPRA):** You may request to know, access, delete, or correct personal information we hold. Contact us with subject line "California Privacy Request."
+
+**EEA/UK residents (GDPR/UK GDPR):** The lawful basis for processing your data is our legitimate interest in providing the app's functionality. You may lodge a complaint with your local data protection authority.
+
+## 11. App Permissions
+
+| Permission | Platform | Purpose |
+|-----------|----------|---------|
+| `INTERNET` | Android | Required for all network requests to our backend |
+
+FlipScout does not request camera, microphone, contacts, location (GPS), photos, or notification permissions.
+
+## 12. In-App Purchases
+
+In-app purchases and subscriptions are not currently available. When introduced, payments will be handled by Apple App Store or Google Play. We will not receive your payment card details.
+
+## 13. Changes to This Policy
+
+We may update this Privacy Policy. Changes will be posted here with a revised "Last updated" date. Continued use of the app after changes constitutes acceptance of the updated policy.
+
+## 14. Contact Us
+
+**SNO Development**  
+Email: snodevelopment58@gmail.com.com  
+App Store: com.snodevelopment.flipscout
