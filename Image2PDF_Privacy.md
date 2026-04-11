@@ -1,8 +1,8 @@
 # Privacy Policy for Image to PDF Converter
 
-Last updated: March 26, 2026
+Last updated: April 11, 2026
 
-SNODevelopment58 ("we," "our," or "us") values your privacy. This Privacy Policy explains how information is handled when you use Image to PDF Converter (package ID: com.jlecr.imagetopdf) and related services.
+SNODevelopment58 ("we," "our," or "us") values your privacy. This Privacy Policy explains how information is handled when you use Image to PDF Converter (package ID: com.snodevelopment58.image2pdfezconvert) and related services.
 
 ## 1. Scope
 
